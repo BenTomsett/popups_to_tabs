@@ -1,0 +1,11 @@
+{
+   "name": "Open popups in tab",
+   "short_name": "Popups to tabs",
+   "version": "1.0",
+   "permissions": ["tabs"],
+   "description": "Opens popups that would normally open in a new window in a new tab instead.",
+   "manifest_version": 2,
+   "background": {
+      "scripts": [ "openintab.js" ]
+   }
+}
